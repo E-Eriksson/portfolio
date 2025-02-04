@@ -23,11 +23,7 @@ export default function Home() {
           />
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">Emil Eriksson</div>
-            <p className="text-gray-700 text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatibus quia, nulla! Maiores et perferendis eaque,
-              exercitationem praesentium nihil.
-            </p>
+            <p className="text-gray-700 text-base">Contact info here!</p>
           </div>
         </div>
       </div>
