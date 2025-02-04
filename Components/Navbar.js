@@ -9,12 +9,6 @@ const Navbar = () => {
         </div>
         <div className="space-x-6">
           <Link
-            href="/"
-            className="text-white hover:text-gray-200 transition duration-300"
-          >
-            Home
-          </Link>
-          <Link
             href="/admin"
             className="text-white hover:text-gray-200 transition duration-300"
           >
