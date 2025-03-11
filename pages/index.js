@@ -43,7 +43,9 @@ export default function Home() {
               className="rounded-lg mx-auto"
             />
             <div className="text-center mt-4">
-              <div className="font-bold text-xl">{project.project}</div>
+              <a href={project.project} className="font-bold text-xl">
+                {project.project}
+              </a>
               <p className="text-gray-700 text-sm mt-2">{project.disc}</p>
             </div>
           </div>

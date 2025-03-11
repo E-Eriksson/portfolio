@@ -1,6 +1,8 @@
 import { useState, useContext } from "react";
 import portfolioContext from "@/Contexts/portfolioContext";
 import Image from "next/image";
+//Min localstorage med project
+//[{"project":"https://radix-dashboard-two.vercel.app/","img":"/RadixDashboard.png","disc":"Dashboard built with radix components"},{"project":"todolist-7rmuudprh-e-erikssons-projects.vercel.app","img":"/Todolist.png","disc":"Made with React and Vite"},{"project":"https://my-news-app-hazel-nine.vercel.app/","img":"/NewsApp.png","disc":"Unused news app made with React nextJS and The guardians API"}]
 
 export default function Admin() {
   const context = useContext(portfolioContext);
